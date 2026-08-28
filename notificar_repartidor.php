@@ -38,6 +38,7 @@ if (!in_array($input['id_repartidor'], $repartidores_activos)) {
     exit; // ! Detenemos el flujo si el destinatario no es válido
 }
 
+
 // TODO: BLOQUE DE RESPUESTA EXITOSA (P01)
 // * Retorna el estado asíncrono y la estampa de tiempo actual del servidor
 http_response_code(200); 
