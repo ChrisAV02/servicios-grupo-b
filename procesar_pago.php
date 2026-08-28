@@ -48,6 +48,7 @@ if (!$pedido_encontrado) {
     exit;
 }
 
+
 // TODO: BLOQUE DE RESPUESTA EXITOSA (P01)
 // * Generación dinámica del ID de transacción para mayor realismo
 http_response_code(200);
